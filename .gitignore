@@ -1,0 +1,24 @@
+# — C / C++ build outputs —
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.log
+build/
+Debug/
+Release/
+
+# Keep VS Code tasks/launch, ignore everything else in .vscode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
